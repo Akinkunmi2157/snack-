@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: fit-content;
+    height: fit-content;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 75vh;
+    align-items: center;
+    background-color: #e8d9c5;
+    
+}
+.nav{
+    display: flex;
+    background:#ba4318e8;
+    width: 100%;
+    height: 16%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+h2{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px green;
+}
+img{
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    display: block;
+}
+.menus{
+    display: flex;
+    gap: 2rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+a:hover{
+    color: rgb(102, 102, 239);
+    letter-spacing: 2px;
+}
+a:first-child{
+    text-decoration: underline;
+}
+.profile{
+    display: flex;
+    gap: 0.5rem;
+    padding-right: 30px;
+}
+.shop{
+    width: 30px;
+    height: 40px;
+}
+.avatar{
+    width: 30px;
+    height: 40px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+    top: 2rem;
+}
+.semi{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+h3{
+    color: #c74313;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color:rgb(255, 86, 24) ;
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+}
+.line{
+    width: 70px;
+    height: 8px;
+    background-color: rgb(255, 86, 24);
+    border-radius: 100% 0 0 100%;
+    position: relative;
+}
+.dot2{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 86, 24);
+    border-radius: 50%;
+    position: absolute;
+    right: 80px;
+}
+
+.line2 {
+    width: 70px;
+    height: 8px;
+    background-color: rgb(255, 86, 24);
+    border-radius: 0 100% 100% 0 ;
+    position: relative;
+}
+.hero2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+    top: 2rem;
+}
+
+.semi2 {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 86, 24);
+    border-radius: 50%;
+    position: absolute;
+    left: 80px;
+}
+
+.str {
+    width: 70px;
+    height: 8px;
+    background-color: rgb(255, 86, 24);
+    border-radius: 100% 0 0 100%;
+    position: relative;
+}
+
+.point2 {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 86, 24);
+    border-radius: 50%;
+    position: absolute;
+    right: 80px;
+}
+
+.str2 {
+    width: 70px;
+    height: 8px;
+    background-color: rgb(255, 86, 24);
+    border-radius: 0 100% 100% 0;
+    position: relative;
+}
+
+.video-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.video-container video {
+    display: flex;
+    object-fit: cover;
+    position: relative;
+    width: 50vw;
+    height:45vh;
+}
+
+
+h1{
+    display: flex;
+    position: absolute;
+    font-size: 2rem;
+    font-family: cursive;
+    color: white;
+    position: absolute;
+    top: 20px;
+ }
+ 
+.nav2 {
+    display: flex;
+    background: whitesmoke;
+    width: 100%;
+    height: 26%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 120px;
+    padding-bottom: 15px;
+}
+.snacks{
+    width: 90px;
+    height: 65px;
+    display: flex;
+    position: relative;
+    left: 40px;
+    background-color: transparent;
+}
+.disc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Delivery {
+    width: 90px;
+    height: 65px;
+    display: flex;
+    position: relative;
+    left: 40px;
+    background-color: transparent;
+}
+
+.disc2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.offer {
+    width: 90px;
+    height: 65px;
+    display: flex;
+    position: relative;
+    left: 60px;
+    background-color: transparent;
+}
+
+.disc3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h4{
+    font-size: 1.2rem;
+    color: #c74313;
+}
+p{
+    text-align: center;
+    font-size: 13px;
+    color: #0000006a;
+}
+.horizon{
+    width: 4px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 0 0 100% 100%;
+}
+.horizon2 {
+    width: 4px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 0 0 100% 100%;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 10vh; 
+    align-items: center;
+    background-color: #e8d9c5;
+}
+
+ @keyframes scrollUp {
+     0% {
+         transform: translateY(100vh);
+     }
+     
+     100% {
+         transform: translateY(-100vh);
+     }
+ }
+
+ @media (max-width: 768px) {
+
+     .container,
+     .container2 {
+         width: 130vw;
+         height: auto;
+         padding-bottom: 2rem;
+         overflow: hidden;
+     }
+
+    
+     .nav {
+         gap: 20px;
+         padding: 0 10px;
+         height: auto;
+         min-height: 80px;
+         width: 100%;
+         flex-wrap: nowrap;
+         width: 130vw;
+         justify-content: space-between;
+         
+     }
+
+     .logo img {
+         width: 60px;
+         height: 60px;
+     }
+
+     h2 {
+         font-size: 0.8rem;
+     }
+
+     .menus {
+         gap: 0.8rem;
+     }
+
+     .menus a {
+         font-size: 0.9rem;
+         text-wrap: nowrap;
+     }
+
+     .hero,
+     .hero2 {
+         gap: 1.5rem;
+         top: 1rem;
+         width: 100%;
+     }
+
+     .semi,
+     .semi2 {
+         gap: 30px;
+         justify-content: center;
+         width: 100%;
+     }
+
+     .line,
+     .line2,
+     .str,
+     .str2 {
+         width: 60px;
+     }
+
+     .dot,
+     .point {
+         left: 70px;
+     }
+
+     .dot2,
+     .point2 {
+         right: 70px;
+     }
+
+     .video-container {
+         width: 90vw;
+         height: 30vh;
+     }
+
+     .video-container video {
+         width: 100%;
+         height: 100%;
+     }
+
+     h1 {
+         font-size: 1.8rem;
+         width: 80%;
+         text-align: center;
+     }
+
+     .nav2 {
+         flex-direction: column;
+         height: auto;
+         gap: 30px;
+         padding: 40px 0;
+         width: 130vw;
+     }
+
+     .snacks,
+     .Delivery,
+     .offer {
+         left: 0;
+         margin: 0 auto;
+     }
+
+     .disc,
+     .disc2,
+     .disc3 {
+         align-items: center;
+         
+     }
+
+     .horizon,
+     .horizon2 {
+         width: 80%;
+         height: 2px;
+         border-radius: 50%;
+     }
+ }
